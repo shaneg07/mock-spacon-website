@@ -272,6 +272,7 @@ p {
 .new p {
     font-weight: normal;
     font-size: 1.1em;
+    color: grey;
 }
 
 h1 {
