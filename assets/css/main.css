@@ -88,11 +88,11 @@ video {
     vertical-align: baseline;
 }
 
-span {
+.inner span {
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: x-large;
+    font-size: xxx-large;
     vertical-align: baseline;
 }
 
@@ -265,10 +265,17 @@ i {
 
 p {
     margin: 0 0 2em 0;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.new p {
+    font-weight: normal;
+    font-size: 1.1em;
 }
 
 h1 {
-    font-size: 2.75em;
+    font-size: 1.5em;
     font-weight: 700;
     line-height: 1.3;
     margin: 0 0 1em 0;
@@ -1653,7 +1660,7 @@ header p {
     -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     background-color: transparent;
-    border: solid 1px #c9c9c9;
+    border: solid 1px #2f3535;
     border-radius: 4px;
     width: 2.65em;
     height: 2.65em;
@@ -2634,7 +2641,7 @@ body.is-touch .tiles article .content {
     border-bottom: 0;
     color: inherit;
     font-weight: 900;
-    letter-spacing: 0.35em;
+    letter-spacing: 0.15em;
     margin: 0 0 2.5em 0;
     text-decoration: none;
     text-transform: uppercase;
@@ -2688,7 +2695,7 @@ body.is-touch .tiles article .content {
     height: 3em;
     line-height: 3em;
     padding: 0 1.5em;
-    background-color: rgba(2, 2, 2, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 4px;
     border: 0;
     font-size: 0.8em;
@@ -2959,7 +2966,7 @@ body.is-menu-visible #menu .close {
 
 #footer {
     padding: 5em 0 6em 0;
-    background-color: #ada9a9;
+    background-color: #d3d0d0;
 }
 
 #footer>.inner {
@@ -2997,7 +3004,8 @@ body.is-menu-visible #menu .close {
     margin-top: 5em;
     list-style: none;
     font-size: 0.8em;
-    color: #dfeded;
+    font-weight: 600;
+    color: black;
 }
 
 #footer>.inner .copyright a {
@@ -3006,7 +3014,7 @@ body.is-menu-visible #menu .close {
 
 #footer>.inner .copyright li {
     display: inline-block;
-    border-left: solid 1px rgba(88, 88, 88, 0.15);
+    border-left: solid 1px rgb(0, 0, 0);
     line-height: 1;
     padding: 0 0 0 1em;
     margin: 0 0 0 1em;
@@ -3101,9 +3109,4 @@ body.is-menu-visible #menu .close {
     #wrapper>*>.inner {
         padding: 0 1.25em;
     }
-}
-
-p {
-    font-weight: bold;
-    font-size: larger;
 }
